@@ -85,8 +85,6 @@ class LinkedList{
       }
     }
 
-
-
     return deletedNode;
   }
 
@@ -150,7 +148,7 @@ class LinkedList{
 
     if(this.head.next){
       this.head = this.head.next;
-    }else{
+    } else {
       this.head = null;
       this.tail = null;
     }

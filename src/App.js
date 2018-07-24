@@ -67,7 +67,7 @@ class App extends Component {
 
               <Button color="red" onClick={()=>{
                 this.setState({count:this.state.count-1})
-                this.linkedList.deleteTail()
+                this.linkedList.deleteTail();
 
               }}>Delete Brother from the end</Button>
 
